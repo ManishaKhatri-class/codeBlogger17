@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="start"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/_1k_followers"
+        android:src="@mipmap/face" />
+
+    <TextView
+        android:id="@+id/text1K"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="cursive"
+        android:text="@string/thank_you"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/image2"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/kf" />
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="cursive"
+        android:layout_marginTop="20dp"
+        android:text="@string/for_your_love_and_support"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+    <ImageView
+        android:id="@+id/image3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="start"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/_1k_followers"
+        android:src="@mipmap/face" />
+</LinearLayout>
